@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-    .flex {
-        display: flex;
+        .flex {
+            display: flex;
+            flex-direction: column;
         }
-        .center{
-        align-items: center;
-        justify-content: center;
-      }
+
+        .center {
+            align-items: center;
+            justify-content: center;
+        }
     </style>
 </head>
-<body class="flex">
+
+<body class="flex center" style="padding: 10px;;">
     <div class="flex center">
-       <img src="turtle.png" alt="turtle" style="height:100px;width:100px;">
-    </div>    
+        <img src="turtle.png" alt="turtle" class="flex center" style="height: 200px; width: 200px; border-radius: 20px;padding-top: 10px;" />
+        <h1><p class="flex center">镇群神兽</p></h1>
+    </div>
 </body>
+
 </html>
